@@ -9,21 +9,16 @@
 import Foundation
 
 struct Constants {
-    static let kTitleAlert = "Thông báo nhỏ nhẹ nè <3"
-    static let kMsgAlert = "Xin chào cả nhà."
-    static let ktitleAction = "Nhấn nhẹ cái đi"
     static let USER_DEFAULTS_DATA_KEY = "com.huynhhq.bullseye"
+    static let kDefaultImage = "1.jpg"
+    static let kScoreText = "Score: "
+    static let kRoundText = "Round: "
+    static let kGameTitle = "Put the Bull's Eye  as close as you can to: "
     //fatal Error Messages
     static let kNotEncoded = "Can't encode data: (error)"
-    //Config scores
-    static let MILESTONE_10 = 10
-    static let MILESTONE_20 = 20
-    static let MILESTONE_30 = 30
-    static let MILESTONE_40 = 40
-    static let MILESTONE_50 = 50
-    static let MILESTONE_60 = 60
-    static let MILESTONE_70 = 70
-    static let MILESTONE_80 = 80
-    static let MILESTONE_90 = 90
-    static let MILESTONE_100 = 100
+    static let kCuteLaugh = "cute_laugh"
+    static let kBaseMusic = "base_music"
+    static let kCellWidth = 50.0
+    static let kCellHeight = 50.0
+    static let kCellSpacing = 10.0
 }

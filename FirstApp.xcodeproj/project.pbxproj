@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9769A6C21FEAA66002FDDE2 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A6B21FEAA66002FDDE2 /* UIColorExtensions.swift */; };
+		A9769A7221FECED0002FDDE2 /* UIPaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A7121FECED0002FDDE2 /* UIPaddedLabel.swift */; };
+		A9769A7421FEFD35002FDDE2 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A7321FEFD35002FDDE2 /* CommonExtensions.swift */; };
+		A9769A7621FF0C3E002FDDE2 /* UIPaddedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A7521FF0C3E002FDDE2 /* UIPaddedButton.swift */; };
+		A9769A7821FFF5A9002FDDE2 /* GameRulesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A7721FFF5A9002FDDE2 /* GameRulesEnum.swift */; };
+		A9769A7B22018B6D002FDDE2 /* cute_laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9769A7A22018B6C002FDDE2 /* cute_laugh.mp3 */; };
+		A9769A7D22019AE2002FDDE2 /* base_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9769A7C22019AE2002FDDE2 /* base_music.mp3 */; };
+		A9769A832202E9C1002FDDE2 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A822202E9C1002FDDE2 /* ViewControllerExtensions.swift */; };
+		A9769A852202F739002FDDE2 /* cTimesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9769A842202F739002FDDE2 /* cTimesCollectionViewCell.swift */; };
 		A999107F21F96B2E00A7684A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A999107E21F96B2E00A7684A /* AppDelegate.swift */; };
 		A999108121F96B2E00A7684A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A999108021F96B2E00A7684A /* ViewController.swift */; };
 		A999108421F96B2E00A7684A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A999108221F96B2E00A7684A /* Main.storyboard */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9769A6B21FEAA66002FDDE2 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		A9769A7121FECED0002FDDE2 /* UIPaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddedLabel.swift; sourceTree = "<group>"; };
+		A9769A7321FEFD35002FDDE2 /* CommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		A9769A7521FF0C3E002FDDE2 /* UIPaddedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPaddedButton.swift; sourceTree = "<group>"; };
+		A9769A7721FFF5A9002FDDE2 /* GameRulesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRulesEnum.swift; sourceTree = "<group>"; };
+		A9769A7A22018B6C002FDDE2 /* cute_laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cute_laugh.mp3; sourceTree = "<group>"; };
+		A9769A7C22019AE2002FDDE2 /* base_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = base_music.mp3; sourceTree = "<group>"; };
+		A9769A822202E9C1002FDDE2 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		A9769A842202F739002FDDE2 /* cTimesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cTimesCollectionViewCell.swift; sourceTree = "<group>"; };
 		A999107B21F96B2E00A7684A /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A999107E21F96B2E00A7684A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A999108021F96B2E00A7684A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9769A7922018B22002FDDE2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A9769A7C22019AE2002FDDE2 /* base_music.mp3 */,
+				A9769A7A22018B6C002FDDE2 /* cute_laugh.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		A999107221F96B2E00A7684A = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +89,7 @@
 		A999107D21F96B2E00A7684A /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9769A7922018B22002FDDE2 /* Sounds */,
 				A999109721F9B1B300A7684A /* Extensions */,
 				A999109421F9ABE600A7684A /* Model */,
 				A999109221F96C7A00A7684A /* Utils.swift */,
@@ -79,7 +107,11 @@
 		A999109421F9ABE600A7684A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A9769A842202F739002FDDE2 /* cTimesCollectionViewCell.swift */,
 				A999109521F9AC4700A7684A /* AppData.swift */,
+				A9769A7121FECED0002FDDE2 /* UIPaddedLabel.swift */,
+				A9769A7521FF0C3E002FDDE2 /* UIPaddedButton.swift */,
+				A9769A7721FFF5A9002FDDE2 /* GameRulesEnum.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				A999109821F9B22A00A7684A /* AppDataExtensions.swift */,
+				A9769A6B21FEAA66002FDDE2 /* UIColorExtensions.swift */,
+				A9769A7321FEFD35002FDDE2 /* CommonExtensions.swift */,
+				A9769A822202E9C1002FDDE2 /* ViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -150,7 +185,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9769A7D22019AE2002FDDE2 /* base_music.mp3 in Resources */,
 				A999108921F96B3000A7684A /* LaunchScreen.storyboard in Resources */,
+				A9769A7B22018B6D002FDDE2 /* cute_laugh.mp3 in Resources */,
 				A999108621F96B3000A7684A /* Assets.xcassets in Resources */,
 				A999108421F96B2E00A7684A /* Main.storyboard in Resources */,
 			);
@@ -164,11 +201,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A999108121F96B2E00A7684A /* ViewController.swift in Sources */,
+				A9769A6C21FEAA66002FDDE2 /* UIColorExtensions.swift in Sources */,
+				A9769A7221FECED0002FDDE2 /* UIPaddedLabel.swift in Sources */,
 				A999107F21F96B2E00A7684A /* AppDelegate.swift in Sources */,
+				A9769A832202E9C1002FDDE2 /* ViewControllerExtensions.swift in Sources */,
 				A999109121F96C7100A7684A /* Constants.swift in Sources */,
 				A999109321F96C7A00A7684A /* Utils.swift in Sources */,
 				A999109621F9AC4700A7684A /* AppData.swift in Sources */,
+				A9769A7621FF0C3E002FDDE2 /* UIPaddedButton.swift in Sources */,
+				A9769A7421FEFD35002FDDE2 /* CommonExtensions.swift in Sources */,
 				A999109921F9B22A00A7684A /* AppDataExtensions.swift in Sources */,
+				A9769A7821FFF5A9002FDDE2 /* GameRulesEnum.swift in Sources */,
+				A9769A852202F739002FDDE2 /* cTimesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

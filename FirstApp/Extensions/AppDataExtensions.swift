@@ -21,4 +21,14 @@ extension AppData{
         }
     }
     
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(isFirstOpen, forKey: Key.isFirstOpen.rawValue)
+        aCoder.encode(targetPoint, forKey: Key.targetPoint.rawValue)
+        aCoder.encode(sliderValue, forKey: Key.sliderValue.rawValue)
+        aCoder.encode(round, forKey: Key.round.rawValue)
+        aCoder.encode(score, forKey: Key.score.rawValue)
+        aCoder.encode(successTime, forKey: Key.successTime.rawValue)
+        aCoder.encode(image, forKey: Key.image.rawValue)
+    }
+    
 }
